@@ -102,7 +102,7 @@ namespace chatroom_BE.Controllers
                 return BadRequest(ModelState);
             }
 
-            post.Time = DateTime.UtcNow;
+            post.Time = DateTime.Now;
 
             _context.Post.Add(post);
             await _context.SaveChangesAsync();

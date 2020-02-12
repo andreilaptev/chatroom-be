@@ -46,7 +46,7 @@ namespace chatroom_BE.Controllers
             return Ok(post);
         }
 
-        //GET: api/getLikes/5
+        //GET: api/getLikes?id=1
 
         [HttpGet]
         [Route("GetLikes")]
@@ -55,6 +55,8 @@ namespace chatroom_BE.Controllers
             var post = await _context.Post.FindAsync(id);
             return post.LikesNo;
         }
+
+        
 
         // PUT: api/Posts/5
         [HttpPut("{id}")]

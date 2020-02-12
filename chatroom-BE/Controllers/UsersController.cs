@@ -46,6 +46,17 @@ namespace chatroom_BE.Controllers
             return Ok(user);
         }
 
+        //GET: api/getUser?login=aaa
+
+        [HttpGet]
+        [Route("GetUser")]
+        public async Task<IActionResult> GetUserByLogin([FromQuery] string login)
+        {
+            var user = await Task.FromResult(_context.User.Where(x => x.Login == login));
+
+            return Ok(user);
+        }
+
         // PUT: api/Users/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUser([FromRoute] int id, [FromBody] User user)

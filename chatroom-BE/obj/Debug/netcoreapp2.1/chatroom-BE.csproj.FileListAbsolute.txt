@@ -1,0 +1,14 @@
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\bin\Debug\netcoreapp2.1\chatroom-BE.deps.json
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\bin\Debug\netcoreapp2.1\chatroom-BE.runtimeconfig.json
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\bin\Debug\netcoreapp2.1\chatroom-BE.runtimeconfig.dev.json
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\bin\Debug\netcoreapp2.1\chatroom-BE.dll
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\obj\Debug\netcoreapp2.1\chatroom-BE.csprojAssemblyReference.cache
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\obj\Debug\netcoreapp2.1\chatroom-BE.csproj.CoreCompileInputs.cache
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\obj\Debug\netcoreapp2.1\chatroom-BE.RazorAssemblyInfo.cache
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\obj\Debug\netcoreapp2.1\chatroom-BE.RazorAssemblyInfo.cs
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\obj\Debug\netcoreapp2.1\chatroom-BE.AssemblyInfoInputs.cache
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\obj\Debug\netcoreapp2.1\chatroom-BE.AssemblyInfo.cs
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\obj\Debug\netcoreapp2.1\chatroom-BE.RazorTargetAssemblyInfo.cache
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\bin\Debug\netcoreapp2.1\chatroom-BE.pdb
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\obj\Debug\netcoreapp2.1\chatroom-BE.dll
+C:\Programming\Mintbean\chatroom-BE\chatroom-BE\obj\Debug\netcoreapp2.1\chatroom-BE.pdb

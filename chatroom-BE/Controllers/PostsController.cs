@@ -22,9 +22,26 @@ namespace chatroom_BE.Controllers
 
         // GET: api/Posts
         [HttpGet]
-        public IEnumerable<Post> GetPost()
+        public IEnumerable<object> GetPost()
         {
-            return _context.Post;
+            var posts = _context.Post;
+           // var newPost = new Post();
+            List<object> newPosts = new List<object>();
+
+            foreach (var post in posts)
+            {
+                var hook = post.UserId;
+                var author = _context.User.FirstOrDefault(x => x.UserId == hook).UserFullName;
+                newPosts.Add( new {
+                    PostId = post.PostId,
+                    Content = post.Content,
+                    LikesNo = post.LikesNo,
+                    Time = post.Time,
+                    UserId = post.UserId,
+                    AuthorName = author
+                });
+            }
+            return newPosts;
         }
 
         // GET: api/Posts/5
